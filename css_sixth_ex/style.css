@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+/* HEADER TEXT AND ELEMENT SELECTORS*/
+
+header {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+h4
+{
+    text-align: center;
+    font-weight: bolder;
+    color: #1fdb1f;
+}
+
+p
+{
+    text-align: center;
+}
+.header-text {
+    color: white;
+    font-style: italic;
+    font-size: 9px;
+    gap: 5px;
+}
+
+/* FLEX */
+
+.basic-flex-r {
+    display: flex;
+    align-items: center;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}
+
+.basic-flex-c {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+hr {
+    flex: 1;                 
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.start-flex-j {
+
+    justify-content: flex-start;
+}
+
+.end-flex {
+    justify-content: flex-end;
+}
+
+.center-flex-j {
+    justify-content: center;
+}
+
+.center-flex-a{
+    align-items: center;
+}
+
+.center-box {
+    width: 60%;
+    margin: auto;
+}
+
+.spc-arnd
+{
+    justify-content: space-around;
+}
+
+.start-flex-a
+{
+    align-items: flex-start;
+}
+
+/*GESTIONE DI SECTION */
+
+.section-start {
+    display: flex;
+    height: 60vh;
+    width: 100%;
+}
+
+.section-content {
+    flex: 1;
+    padding-top: 10%;
+    padding-bottom: 0%;
+    padding-left: 0px;
+    padding-right: 35%;
+    font-size: 25px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* testo centrato verticalmente */
+    /* background-color: #163257; */
+    color: white;
+
+}
+
+.img-bg {
+
+    flex-grow: 1;
+    background-image: url("background-header.png");
+    background-size: contain;
+    background-position: center right;
+    background-repeat: no-repeat;
+
+    margin-top: 10px;
+
+}
+
+/* lower imgs utils */
+
+.one-third-container
+{
+    width: 32%;
+}
+
+.img-w
+{
+    width: 194px;
+    height: 194px;
+}
+
+.get-gapped
+{
+    gap: 10px;
+}
+
+.half-p
+{
+    width: 45%;
+    height: 50%;
+}
+
+/* utils & buttons*/
+
+.create-button {
+    margin: 0px 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px white;
+}
+
+.halfw {
+    width: 50%;
+}
+
+.fixed {
+    position: fixed;
+    right: 50px;
+    /* left: 1700px; */
+    bottom: 50px;
+}
+
+
+/* BACKGROUNDS */
+
+.blue-bg {
+    background-color: #163257;
+
+}
+
+.gray-bg {
+    background-color: #d3d3d3;
+
+}
+
+.green-bg {
+    background-color: #1fdb1f;
+    border: solid 1px #1fdb1f;
+}

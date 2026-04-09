@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kablammo", system-ui;
+}
+
+.be-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.centerbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewp {
+    width: 100vw;
+    height: 100vh;
+}
+
+.fontmod
+{
+    font-size: 25px;
+    text-align: center;
+}

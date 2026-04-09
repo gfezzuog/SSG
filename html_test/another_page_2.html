@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs</title>
+
+    <style>
+        table td,
+        table th {
+            border: 1px solid #c9c9c9;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .foot-head {
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:0vh;
+
+        }
+
+        .colore-fancy {
+            background: linear-gradient(45deg, #ff0000, #00ff40, #1900ff, #ff00f2, crimson, chartreuse);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <!-- <colgroup>
+            <col
+            <col>
+            <col>
+            <col>
+            <col>
+        </colgroup> -->
+        <thead>
+            <tr class="colore-fancy" style="text-align: center;">
+                <td class="foot-head" colspan="20"><strong> Titolo incredibile per la nostra tabella </strong></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <label for="rapporto-internet">Qual è il tuo rapporto con internet?</label><br>
+                    <select id="rapporto-internet" name="internet">
+                        <option value="">seleziona il valore dal menù</option>
+                        <option value="tanto">Lo uso tanto</option>
+                        <option value="moderato">Uso Moderato</option>
+                        <option value="flintstones">Vivo nell'età della pietra</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="radio" value="certo" name="nonsaprei"> certo
+                    <input type="radio" value="nha" name="nonsaprei"> nha
+                    <input type="radio" value="perforza" name="nonsaprei"> perforza
+                </td>
+                <td><label for="pass">immetti la password che usi più spesso</label>
+                    <input type="password" id="pass">
+                </td>
+            </tr>
+            <tr>
+                <td> <label for="useless">Useless text</label><br>
+                    <input type="text" id="useless" placeholder="Scrivi quello che ti pare">
+                </td>
+                <td> <label for="useless">Useless text</label><br>
+                    <input type="text" id="useless" placeholder="Scrivi quello che ti pare">
+                </td>
+                <td> <label for="useless">Useless text</label><br>
+                    <input type="text" id="useless" placeholder="Scrivi quello che ti pare">
+                </td>
+            </tr>
+            <tr>
+                <td>Dovrebbe</td>
+                <td>Avere</td>
+                <td>3 Colonne</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="colore-fancy">
+                <td colspan="20" class="foot-head"><br>
+                    <button type="button" onclick="location.href = 'another_page.html'">Torna indietro</button>
+                    <button type="button" onclick="location.href = 'index.html'">Torna alla prima pagina</button>
+                </td>
+            </tr>
+        </tfoot>
+        <p class="colore-fancy">Gregorio Samsa, svegliandosi una mattina da sogni agitati, si trovò
+                    trasformato, nel suo letto, in un enorme insetto immondo. Riposava sulla schiena, dura come una
+                    corazza, e sollevando un poco il capo vedeva il suo ventre arcuato, bruno e diviso in tanti segmenti
+                    ricurvi, in cima a cui la coperta da letto, vicina a scivolar giù tutta, si manteneva a fatica. Le
+                    gambe, numerose e sottili da far pietà, rispetto alla sua corporatura normale, tremolavano senza
+                    tregua in un confuso luccichio dinanzi ai suoi occhi. Cosa m’è avvenuto? pensò. Non era un sogno. La
+                    sua camera, una stanzetta di giuste proporzioni, soltanto un po’ piccola, se ne stava tranquilla fra
+                    le quattro ben note pareti. Sulla tavola, un campionario disfatto di tessuti - Samsa era commesso
+                    viaggiatore e sopra, appeso alla parete, un ritratto, ritagliato da lui - non era molto - da una
+                    rivista illustrata e messo dentro una bella cornice dorata: raffigurava una donna seduta, ma ben
+                    dritta sul busto, con un berretto e un boa di pelliccia; essa levava incontro a chi guardava un
+                    pesante manicotto, in cui scompariva tutto l’avambraccio. Lo sguardo di Gregorio si rivolse allora
+                    verso la finestra, e il cielo fosco (si sentivano battere le gocce di pioggia sullo zinco della
+                    finestra) lo immalinconì completamente. Che avverrebbe se io dormissi ancora un poco e dimenticassi
+                    ogni pazzia? pensò; ma ciò era assolutamente impossibile, perché Gregorio era abituato a dormire
+                    sulla destra, ma non poteva, nelle sue attuali condizioni, mettersi in quella posizione. Per quanto
+                    si gettasse con tutta la sua forza da quella parte, tornava sempre oscillando sul dorso: provò per
+                    cento volte, chiuse gli occhi per non veder le sue zampine dimenanti, e rinunciò soltanto quando
+                    cominciò a sentire nel fianco un dolore sottile e sordo, ancora non mai provato. O Dio, pensava, che
+                    professione faticosa ho scelto! Ogni giorno su e giù in treno. L’affanno per gli affari è molto più
+                    intenso che in un vero e proprio ufficio, e v’è per giunta questa piaga del viaggiare, le
+                    preoccupazioni per le coincidenze dei treni, la nutrizione irregolare e cattiva; le relazioni cogli
+                    uomini poi cambiano ad ogni momento e non possono mai diventare durature né cordiali. Al diavolo
+                    ogni cosa! Sentendo un leggero prurito nella parte più alta del ventre, si spinse lentamente sulla
+                    schiena verso una colonnetta del letto per poter alzar meglio il capo: il punto che pizzicava era
+                    tutto coperto di puntini bianchi, di cui non sapeva che pensare; si provò a toccarlo con una gamba,
+                    ma subito la ritrasse perché al primo contatto lo aveva percorso un brivido. Gregorio Samsa,
+                    svegliandosi una mattina da sogni agitati, si trovò trasformato, nel suo letto, in un enorme insetto
+                    immondo. Riposava sulla schiena, dura come una corazza, e sollevando un poco il capo vedeva il suo
+                    ventre arcuato, bruno e diviso in tanti segmenti ricurvi, in cima a cui la coperta da letto, vicina
+                    a scivolar giù tutta, si manteneva a fatica. Le gambe, numerose e sottili da far pietà, rispetto
+                    alla sua corporatura normale, tremolavano senza tregua in un confuso luccichio dinanzi ai suoi
+                    occhi. Cosa m’è avvenuto? pensò. Non era un sogno. La sua camera, una stanzetta di giuste
+                    proporzioni, soltanto un po’ piccola, se ne stava tranquilla fra le quattro ben note pareti. Sulla
+                    tavola, un campionario disfatto di tessuti - Samsa era commesso viaggiatore e sopra, appeso alla
+                    parete, un ritratto, ritagliato da lui - non era molto - da una rivista illustrata e messo dentro
+                    una bella cornice dorata: raffigurava una donna seduta, ma ben dritta sul busto, con un berretto e
+                    un boa di pelliccia; essa levava incontro a chi guardava un pesante manicotto, in cui scompariva
+                    tutto l’avambraccio. Lo sguardo di Gregorio si rivolse allora verso la finestra, e il cielo fosco
+                    (si sentivano battere le gocce di pioggia sullo zinco della finestra) lo immalinconì completamente.
+                    Che avverrebbe se io dormissi ancora un poco e dimenticassi ogni pazzia? pensò; ma ciò era
+                    assolutamente impossibile, perché Gregorio era abituato a dormire sulla destra, ma non poteva, nelle
+                    sue attuali condizioni, mettersi in quella posizione. Per quanto si gettasse con tutta la sua forza
+                    da quella parte, tornava sempre oscillando sul dorso: provò per cento volte, chiuse gli occhi per
+                    non veder le sue zampine dimenanti, e rinunciò soltanto quando cominciò a sentire nel fianco un
+                    dolore sottile e sordo, ancora non mai provato. O Dio, pensava, che professione faticosa ho scelto!
+                    Ogni giorno su e giù in treno. L’affanno per gli affari è molto più intenso che in un vero e proprio
+                    ufficio, e v’è per giunta questa piaga del viaggiare, le preoccupazioni per le coincidenze dei
+                    treni, la nutrizione irregolare e cattiva; le relazioni cogli uomini poi cambiano ad ogni momento e
+                    non possono mai diventare durature né cordiali. Al diavolo ogni cosa! Sentendo un leggero prurito
+                    nella parte più alta del ventre, si spinse lentamente sulla schiena verso una colonnetta del letto
+                    per poter alzar meglio il capo: il punto che pizzicava era tutto coperto di puntini bianchi, di cui
+                    non sapeva che pensare; si provò a toccarlo con una gamba, ma subito la ritrasse perché al primo
+                    contatto lo aveva percorso un brivido.Gregorio Samsa, svegliandosi una mattina da sogni agitati, si
+                    trovò trasformato, nel suo letto, in un enorme insetto immondo. Riposava sulla schiena, dura come
+                    una corazza, e sollevando un poco il capo vedeva il suo ventre arcuato, bruno e diviso in tanti
+                    segmenti ricurvi, in cima a cui la coperta da letto, vicina a scivolar giù tutta, si manteneva a
+                    fatica. Le gambe, numerose e sottili da far pietà, rispetto alla sua corporatura normale,
+                    tremolavano senza tregua in un confuso luccichio dinanzi ai suoi occhi. Cosa m’è avvenuto? pensò.
+                    Non era un sogno. La sua camera, una stanzetta di giuste proporzioni, soltanto un po’ piccola, se ne
+                    stava tranquilla fra le quattro ben note pareti. Sulla tavola, un campionario disfatto di tessuti -
+                    Samsa era commesso viaggiatore e sopra, appeso alla parete, un ritratto, ritagliato da lui - </p>
+    </table>
+
+
+</body>
+
+</html>

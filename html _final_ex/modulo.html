@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="modulo.html">Modulo</a></li>
+        <li><a href="tabella.html">Tabella</a></li>
+    </ul>
+    <h1>Modulo</h1>
+    <form action="" method="post">
+        <div class="form">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Inserisci il tuo Nome" required>
+        </div>
+        <div class="form">
+            <label for="cognome">Cognome</label>
+            <input type="text" name="cognome" id="cognome" placeholder="Inserisci il tuo Cognome" readonly>
+        </div>
+        <div class="form">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Inserisci email">
+        </div>
+        <div class="form">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="***********">
+        </div>
+        <div class="form">
+            <label for="note">Note</label>
+            <textarea name="note" id="note"></textarea>
+        </div>
+        <div class="form">
+            <label for="genere">Genere</label><br>
+            <input class="cosa"type="radio" name="genere" id="genere">Maschio <br>
+            <input class="cosa" type="radio" name="genere" id="genere">Femmina
+        </div>
+        <div class="form text-uppercase">
+            <label class="bgred"for="data">Data nascita</label>
+            <input type="date" name="data" id="data"">
+        </div>
+        <div class=" form">
+            <label for="macchina">Macchina preferita</label>
+            <select name="macchina" id="macchina">
+                <option value="Fiat">Fiat</option>
+                <option value="Mercedes">Mercedes</option>
+                <option value="Opel">Opel</option>
+                <option value="Citroen">Citroen</option>
+            </select>
+        </div>
+        <div class="form">
+            <input type="checkbox" name="newsletter"> Iscriviti alla newsletter
+        </div>
+        <div class="form">
+            <input type="submit" value="invio">
+            <input type="reset" value="reset">
+        </div>      
+    </form>
+</body>
+
+</html>

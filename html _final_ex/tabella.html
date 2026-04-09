@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabella</title>
+    <!-- <style>
+        thead th
+        {
+            height: 50px;
+        }
+    </style> -->
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="modulo.html">Modulo</a></li>
+        <li><a href="tabella.html">Tabella</a></li>
+    </ul>
+    <h1>Tabella</h1>
+    <table border="1" style="width: 100%; height: 400px;">
+        <thead>
+            <th>Colonna 1</th>
+            <th>Colonna 2</th>
+            <th>Colonna 3</th>
+            <th>Colonna 4</th>
+            <th>Colonna 5</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="3">1</td>
+                <!-- <td>2</td>
+                <td>3</td> -->
+                <td>4</td>
+                <td rowspan="3">5</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td rowspan="2">2</td>
+                <td>3</td>
+                <td>4</td>
+                <!-- <td>5</td> -->
+            </tr>
+            <tr>
+                <td rowspan="2">1</td>
+                <!-- <td>2</td> -->
+                <td>3</td>
+                <td>4</td>
+                <!-- <td>5</td> -->
+            </tr>
+            <tr>
+                <!-- <td>1</td> -->
+                <td colspan="3">2</td>
+                <!-- <td>3</td>
+                <td>4</td> -->
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td colspan="3">3</td>
+                <!-- <td>4</td>
+                <td>5</td> -->
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kablammo", system-ui;
+}
+
+.center-box
+{
+    margin: auto;
+    width: 80%;
+    /* background-color: black; */
+    border-radius: 5px;
+    /* border: solid 1px black; */
+    flex-wrap: wrap;
+    justify-content:space-around;
+    
+    /* align-content: space-around; */
+    /* gap: 5px; */
+}
+
+
+.center-image
+{
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.be-flex
+{
+    display: flex;
+}
+/* -------------------------------------------------------------------------- */
+
+
+.image-ship,
+.image-tractor,
+.image-baloon,
+.image-bicycle,
+.image-submarine,
+.image-tram {
+    min-width: 24.5%;
+    height: auto;
+    aspect-ratio: 3/2;
+    background-image: url("Pattern.png");
+    background-size:cover;
+    background-position:center;
+    transition: 0.3s;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+/* --------------------------------------------------------------------------- */
+.image-ship:hover {
+    background-color: white;
+    background-image: url("Ship.png");
+}
+
+.image-tractor:hover {
+    background-color: white;
+    background-image: url("Tractor.png");
+}
+
+.image-baloon:hover {
+    background-color: white;
+    background-image: url("Air_baloon.png");
+}
+
+.image-bicycle:hover {
+    background-color: white;
+    background-image: url("Bicycle.png");
+}
+
+.image-submarine:hover {
+    background-color: white;
+    background-image: url("Submarine.png");
+}
+
+.image-tram:hover {
+    background-color: white;
+    background-image: url("Tram.png");
+}

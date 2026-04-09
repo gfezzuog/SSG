@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kablammo", system-ui;
+}
+
+table
+{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: solid 1px pink;
+}
+/* thead > th:
+{
+    width: 25%;
+} */
+ /* SPACING DELLA TABELLA */
+thead th:nth-child(1)
+{
+ width: 20%;
+}
+thead th:nth-child(2)
+{
+ width: 20%;
+}
+thead th:nth-child(3)
+{
+ width: 35%;
+}
+thead th:nth-child(4)
+{
+ width: 15%;
+}
+th, td
+{
+    padding: 20px;
+}
+
+tbody td
+{
+    text-align: center;
+}
+
+tfoot th{
+    text-align: right;
+}
+
+/* zebra striping: Per avere righe di colore diverso che si alternano */
+
+tbody tr:nth-child(odd)
+{
+    background-color: white;
+}
+tbody tr:nth-child(even)
+{
+    background-color: palevioletred;
+}
+
+/* caption */
+
+caption
+{
+    padding: 20px;
+    font-style: italic;
+    caption-side: bottom;
+    color: #666;
+    text-align: right;
+    letter-spacing: 1px;
+}

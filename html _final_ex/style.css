@@ -1,0 +1,27 @@
+
+*{
+    color:brown
+}
+
+.form>label {
+    /* background-color:chocolate; */
+    text-transform: lowercase;
+}
+
+.bgred{
+    background-color:red;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+.form input {
+    color: darkmagenta;
+    background-color: teal;
+}
+input[type~="radio"]{
+    background-color: crimson;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
