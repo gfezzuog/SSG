@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kablammo", system-ui;
+}
+
+.center-box {
+    width: 60vw;
+    margin: auto;
+    height: 60vh;
+    border: solid 1px black;
+    background-color: red;
+}
+
+@media screen and (max-width : 1920px) {
+    .col-1-L {
+        width: calc(100%/12);
+    }
+
+    .col-2-L {
+        width: calc(100%/6);
+    }
+
+    .col-3-L {
+        width: calc(100%/4);
+    }
+
+    .col-4-L {
+        width: calc(100%/3);
+    }
+
+    .col-6-L {
+        width: calc(100%/2);
+    }
+
+    .col-8-L {
+        width: calc(2 * 100%/3);
+    }
+}
+
+@media screen and (max-width : 1240px) {
+
+    .col-1-M {
+        width: calc(100%/12);
+    }
+
+    .col-2-M {
+        width: calc(100%/6);
+    }
+
+    .col-3-M {
+        width: calc(100%/4);
+    }
+
+    .col-4-M {
+        width: calc(100%/3);
+    }
+
+    .col-6-M {
+        width: calc(100%/2);
+    }
+
+    .col-8-M {
+        width: calc(2 * 100%/3);
+    }
+
+    .col-12-M {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width : 720px) {
+
+    .col-1-S {
+        width: calc(100%/12);
+    }
+
+    .col-2-S {
+        width: calc(100%/6);
+    }
+
+    .col-3-S {
+        width: calc(100%/4);
+    }
+
+    .col-4-S {
+        width: calc(100%/3);
+    }
+
+    .col-6-S {
+        width: calc(100%/2);
+    }
+
+    .col-8-S {
+        width: calc(2 * 100%/3);
+    }
+
+    .col-12-S {
+        width: 100%;
+    }
+
+    .center-box {
+        width: 99.9vw;
+        margin: auto;
+        height: 99.9vh;
+        border: solid 1px black;
+        background-color: red;
+    }
+}
+
+p {
+    text-align: center;
+    border: solid 1px white;
+
+}
+
+.row-flex {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-a; */
+    flex-wrap: wrap;
+}
+
+
+.max-wp {
+    width: 100%;
+}
+
+/* .col-1-L {
+    width: calc(100%/12);
+}
+
+
+.col-8-L {
+    width: calc(2 * 100%/3);
+}
+
+.col-2-L {
+    width: calc(100%/6);
+}
+
+.col-6-L {
+    width: calc(100%/2);
+} */
+
+.half-w {
+    width: 50%;
+}
+
+.one-fifth-height {
+    height: calc(100% / 5);
+}
