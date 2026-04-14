@@ -37,6 +37,9 @@
     .col-8-L {
         width: calc(2 * 100%/3);
     }
+    .col-12-L {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width : 1240px) {
@@ -119,7 +122,6 @@ p {
 .row-flex {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-a; */
     flex-wrap: wrap;
 }
 
@@ -128,27 +130,6 @@ p {
     width: 100%;
 }
 
-/* .col-1-L {
-    width: calc(100%/12);
-}
-
-
-.col-8-L {
-    width: calc(2 * 100%/3);
-}
-
-.col-2-L {
-    width: calc(100%/6);
-}
-
-.col-6-L {
-    width: calc(100%/2);
-} */
-
 .half-w {
     width: 50%;
-}
-
-.one-fifth-height {
-    height: calc(100% / 5);
 }
